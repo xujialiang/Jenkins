@@ -9,5 +9,9 @@
 #import "RegisterViewController.h"
 
 @implementation RegisterViewController
+- (IBAction)DoRegisterAction:(id)sender {
+    
+    [self.navigationController popViewControllerAnimated:YES];
+}
 
 @end

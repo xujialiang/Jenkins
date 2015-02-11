@@ -24,6 +24,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UIStoryboard *board = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    [self presentViewController:[board instantiateViewControllerWithIdentifier:@"sid_login"] animated:YES completion:nil ];
 }
 
 -(void)viewWillAppear:(BOOL)animated{

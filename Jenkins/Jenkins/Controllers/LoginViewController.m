@@ -9,5 +9,8 @@
 #import "LoginViewController.h"
 
 @implementation LoginViewController
+- (IBAction)DoLoginAction:(id)sender {
+    [self.navigationController dismissViewControllerAnimated:YES completion:nil];
+}
 
 @end

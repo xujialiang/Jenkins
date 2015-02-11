@@ -25,7 +25,7 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     CGRect frame = self.tableView.tableHeaderView.frame;
-    frame.size.height = 0.1;
+    frame.size.height = 10;
     UIView *headerView = [[UIView alloc] initWithFrame:frame];
     [self.tableView setTableHeaderView:headerView];
 }
