@@ -1,0 +1,899 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB37842A1A85CF6200DB687A /* JKBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3784271A85CF6200DB687A /* JKBaseModel.m */; };
+		EB37842B1A85CF6200DB687A /* JKJobsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3784291A85CF6200DB687A /* JKJobsModel.m */; };
+		EB3784321A85D05F00DB687A /* JKBaseRequestDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3784311A85D05F00DB687A /* JKBaseRequestDTO.m */; };
+		EB3784361A85D22C00DB687A /* JKJobsRequestDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3784351A85D22C00DB687A /* JKJobsRequestDTO.m */; };
+		EB3784391A85D39D00DB687A /* JKHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3784381A85D39D00DB687A /* JKHttpRequest.m */; };
+		EB37843C1A85D8B000DB687A /* JKService.m in Sources */ = {isa = PBXBuildFile; fileRef = EB37843B1A85D8B000DB687A /* JKService.m */; };
+		EBC714DE1A847EB500758981 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC714CC1A847EB500758981 /* AFHTTPRequestOperation.m */; };
+		EBC714DF1A847EB500758981 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC714CE1A847EB500758981 /* AFHTTPRequestOperationManager.m */; };
+		EBC714E01A847EB500758981 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC714D01A847EB500758981 /* AFHTTPSessionManager.m */; };
+		EBC714E11A847EB500758981 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC714D31A847EB500758981 /* AFNetworkReachabilityManager.m */; };
+		EBC714E21A847EB500758981 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC714D51A847EB500758981 /* AFSecurityPolicy.m */; };
+		EBC714E31A847EB500758981 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC714D71A847EB500758981 /* AFURLConnectionOperation.m */; };
+		EBC714E41A847EB500758981 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC714D91A847EB500758981 /* AFURLRequestSerialization.m */; };
+		EBC714E51A847EB500758981 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC714DB1A847EB500758981 /* AFURLResponseSerialization.m */; };
+		EBC714E61A847EB500758981 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC714DD1A847EB500758981 /* AFURLSessionManager.m */; };
+		EBC714F91A847EDF00758981 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC714E91A847EDF00758981 /* AFNetworkActivityIndicatorManager.m */; };
+		EBC714FA1A847EDF00758981 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC714EB1A847EDF00758981 /* UIActivityIndicatorView+AFNetworking.m */; };
+		EBC714FB1A847EDF00758981 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC714ED1A847EDF00758981 /* UIAlertView+AFNetworking.m */; };
+		EBC714FC1A847EDF00758981 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC714EF1A847EDF00758981 /* UIButton+AFNetworking.m */; };
+		EBC714FD1A847EDF00758981 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC714F11A847EDF00758981 /* UIImageView+AFNetworking.m */; };
+		EBC714FE1A847EDF00758981 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC714F41A847EDF00758981 /* UIProgressView+AFNetworking.m */; };
+		EBC714FF1A847EDF00758981 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC714F61A847EDF00758981 /* UIRefreshControl+AFNetworking.m */; };
+		EBC715001A847EDF00758981 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC714F81A847EDF00758981 /* UIWebView+AFNetworking.m */; };
+		EBC715031A847F8000758981 /* ProjectHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC715021A847F8000758981 /* ProjectHelper.m */; };
+		EBC715151A84905200758981 /* CXAlertButtonContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC7150C1A84905200758981 /* CXAlertButtonContainerView.m */; };
+		EBC715161A84905200758981 /* CXAlertButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC7150E1A84905200758981 /* CXAlertButtonItem.m */; };
+		EBC715171A84905200758981 /* CXAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC715101A84905200758981 /* CXAlertView.m */; };
+		EBC715181A84905200758981 /* CXAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC715121A84905200758981 /* CXAlertViewController.m */; };
+		EBC715191A84905200758981 /* CXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC715141A84905200758981 /* CXBlurView.m */; };
+		EBC715201A84921A00758981 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC7151F1A84921A00758981 /* MBProgressHUD.m */; };
+		EBE400411A89C6BB0001C5AE /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE400401A89C6BB0001C5AE /* LoginViewController.m */; };
+		EBE400441A89C8120001C5AE /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE400431A89C8120001C5AE /* RegisterViewController.m */; };
+		EBE462CD1A820F68001CE73F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE462CC1A820F68001CE73F /* main.m */; };
+		EBE462D01A820F68001CE73F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE462CF1A820F68001CE73F /* AppDelegate.m */; };
+		EBE462D61A820F68001CE73F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBE462D41A820F68001CE73F /* Main.storyboard */; };
+		EBE462D81A820F68001CE73F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE462D71A820F68001CE73F /* Images.xcassets */; };
+		EBE462DB1A820F68001CE73F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBE462D91A820F68001CE73F /* LaunchScreen.xib */; };
+		EBE462E71A820F68001CE73F /* JenkinsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE462E61A820F68001CE73F /* JenkinsTests.m */; };
+		EBE462F71A821055001CE73F /* libusc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBE462F31A821055001CE73F /* libusc.a */; };
+		EBE4FF691A85E0420001C5AE /* JKBuildsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE4FF681A85E0420001C5AE /* JKBuildsModel.m */; };
+		EBE4FF6C1A85E0AF0001C5AE /* JKHealthreportModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE4FF6B1A85E0AF0001C5AE /* JKHealthreportModel.m */; };
+		EBE4FF6F1A85E2EE0001C5AE /* JKJobDetailRequestDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE4FF6E1A85E2EE0001C5AE /* JKJobDetailRequestDTO.m */; };
+		EBE4FF721A85E3350001C5AE /* JKJobDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE4FF711A85E3350001C5AE /* JKJobDetailModel.m */; };
+		EBE4FF7B1A85EDB80001C5AE /* JKUpstreamprojectsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE4FF7A1A85EDB80001C5AE /* JKUpstreamprojectsModel.m */; };
+		EBE4FF7E1A85F2F90001C5AE /* JKJobHistoryRequestDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE4FF7D1A85F2F90001C5AE /* JKJobHistoryRequestDTO.m */; };
+		EBE4FF811A85F5390001C5AE /* JKHistoryJobDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE4FF801A85F5390001C5AE /* JKHistoryJobDetailModel.m */; };
+		EBE4FF871A85F6370001C5AE /* JKCausesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE4FF861A85F6370001C5AE /* JKCausesModel.m */; };
+		EBE4FF8A1A85F6AD0001C5AE /* JKItemsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE4FF891A85F6AD0001C5AE /* JKItemsModel.m */; };
+		EBE4FF8D1A85F7BA0001C5AE /* JKAuthorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE4FF8C1A85F7BA0001C5AE /* JKAuthorModel.m */; };
+		EBE4FF931A85F93B0001C5AE /* JKChangesetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE4FF921A85F93B0001C5AE /* JKChangesetModel.m */; };
+		EBE4FF961A887F920001C5AE /* JKActionsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE4FF951A887F920001C5AE /* JKActionsModel.m */; };
+		EBE4FF991A8888A80001C5AE /* JKAffectedPathsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE4FF981A8888A80001C5AE /* JKAffectedPathsModel.m */; };
+		EBE4FFAC1A88ABD80001C5AE /* AddProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE4FFA31A88ABD80001C5AE /* AddProjectViewController.m */; };
+		EBE4FFAD1A88ABD80001C5AE /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE4FFA51A88ABD80001C5AE /* BaseTableViewController.m */; };
+		EBE4FFAE1A88ABD80001C5AE /* HistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE4FFA71A88ABD80001C5AE /* HistoryTableViewController.m */; };
+		EBE4FFAF1A88ABD80001C5AE /* JobDescViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE4FFA91A88ABD80001C5AE /* JobDescViewController.m */; };
+		EBE4FFB01A88ABD80001C5AE /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE4FFAB1A88ABD80001C5AE /* RootViewController.m */; };
+		EBE4FFB91A88AC2B0001C5AE /* SearchJenkinsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE4FFB81A88AC2B0001C5AE /* SearchJenkinsViewController.m */; };
+		EBE4FFBC1A88AE1E0001C5AE /* JenkinsJobListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE4FFBB1A88AE1E0001C5AE /* JenkinsJobListViewController.m */; };
+		EBE4FFCA1A88B72E0001C5AE /* NSMutableArray+SWUtilityButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE4FFBF1A88B72E0001C5AE /* NSMutableArray+SWUtilityButtons.m */; };
+		EBE4FFCB1A88B72E0001C5AE /* SWCellScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE4FFC11A88B72E0001C5AE /* SWCellScrollView.m */; };
+		EBE4FFCC1A88B72E0001C5AE /* SWLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE4FFC31A88B72E0001C5AE /* SWLongPressGestureRecognizer.m */; };
+		EBE4FFCD1A88B72E0001C5AE /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE4FFC51A88B72E0001C5AE /* SWTableViewCell.m */; };
+		EBE4FFCE1A88B72E0001C5AE /* SWUtilityButtonTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE4FFC71A88B72E0001C5AE /* SWUtilityButtonTapGestureRecognizer.m */; };
+		EBE4FFCF1A88B72E0001C5AE /* SWUtilityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE4FFC91A88B72E0001C5AE /* SWUtilityButtonView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBE462E11A820F68001CE73F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBE462BF1A820F68001CE73F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBE462C61A820F68001CE73F;
+			remoteInfo = Jenkins;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB3784261A85CF6200DB687A /* JKBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKBaseModel.h; sourceTree = "<group>"; };
+		EB3784271A85CF6200DB687A /* JKBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKBaseModel.m; sourceTree = "<group>"; };
+		EB3784281A85CF6200DB687A /* JKJobsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKJobsModel.h; sourceTree = "<group>"; };
+		EB3784291A85CF6200DB687A /* JKJobsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKJobsModel.m; sourceTree = "<group>"; };
+		EB3784301A85D05F00DB687A /* JKBaseRequestDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKBaseRequestDTO.h; sourceTree = "<group>"; };
+		EB3784311A85D05F00DB687A /* JKBaseRequestDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKBaseRequestDTO.m; sourceTree = "<group>"; };
+		EB3784341A85D22C00DB687A /* JKJobsRequestDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKJobsRequestDTO.h; sourceTree = "<group>"; };
+		EB3784351A85D22C00DB687A /* JKJobsRequestDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKJobsRequestDTO.m; sourceTree = "<group>"; };
+		EB3784371A85D39D00DB687A /* JKHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKHttpRequest.h; sourceTree = "<group>"; };
+		EB3784381A85D39D00DB687A /* JKHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKHttpRequest.m; sourceTree = "<group>"; };
+		EB37843A1A85D8B000DB687A /* JKService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKService.h; sourceTree = "<group>"; };
+		EB37843B1A85D8B000DB687A /* JKService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKService.m; sourceTree = "<group>"; };
+		EBC714CB1A847EB500758981 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		EBC714CC1A847EB500758981 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		EBC714CD1A847EB500758981 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		EBC714CE1A847EB500758981 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		EBC714CF1A847EB500758981 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		EBC714D01A847EB500758981 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		EBC714D11A847EB500758981 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		EBC714D21A847EB500758981 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		EBC714D31A847EB500758981 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		EBC714D41A847EB500758981 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		EBC714D51A847EB500758981 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		EBC714D61A847EB500758981 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		EBC714D71A847EB500758981 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		EBC714D81A847EB500758981 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		EBC714D91A847EB500758981 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		EBC714DA1A847EB500758981 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		EBC714DB1A847EB500758981 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		EBC714DC1A847EB500758981 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		EBC714DD1A847EB500758981 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		EBC714E81A847EDF00758981 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		EBC714E91A847EDF00758981 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		EBC714EA1A847EDF00758981 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		EBC714EB1A847EDF00758981 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		EBC714EC1A847EDF00758981 /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		EBC714ED1A847EDF00758981 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		EBC714EE1A847EDF00758981 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		EBC714EF1A847EDF00758981 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		EBC714F01A847EDF00758981 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		EBC714F11A847EDF00758981 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		EBC714F21A847EDF00758981 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		EBC714F31A847EDF00758981 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		EBC714F41A847EDF00758981 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		EBC714F51A847EDF00758981 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		EBC714F61A847EDF00758981 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		EBC714F71A847EDF00758981 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		EBC714F81A847EDF00758981 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		EBC715011A847F8000758981 /* ProjectHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectHelper.h; sourceTree = "<group>"; };
+		EBC715021A847F8000758981 /* ProjectHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectHelper.m; sourceTree = "<group>"; };
+		EBC7150B1A84905200758981 /* CXAlertButtonContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXAlertButtonContainerView.h; sourceTree = "<group>"; };
+		EBC7150C1A84905200758981 /* CXAlertButtonContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXAlertButtonContainerView.m; sourceTree = "<group>"; };
+		EBC7150D1A84905200758981 /* CXAlertButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXAlertButtonItem.h; sourceTree = "<group>"; };
+		EBC7150E1A84905200758981 /* CXAlertButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXAlertButtonItem.m; sourceTree = "<group>"; };
+		EBC7150F1A84905200758981 /* CXAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXAlertView.h; sourceTree = "<group>"; };
+		EBC715101A84905200758981 /* CXAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXAlertView.m; sourceTree = "<group>"; };
+		EBC715111A84905200758981 /* CXAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXAlertViewController.h; sourceTree = "<group>"; };
+		EBC715121A84905200758981 /* CXAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXAlertViewController.m; sourceTree = "<group>"; };
+		EBC715131A84905200758981 /* CXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXBlurView.h; sourceTree = "<group>"; };
+		EBC715141A84905200758981 /* CXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXBlurView.m; sourceTree = "<group>"; };
+		EBC7151E1A84921A00758981 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		EBC7151F1A84921A00758981 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		EBE4003F1A89C6BB0001C5AE /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		EBE400401A89C6BB0001C5AE /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		EBE400421A89C8120001C5AE /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		EBE400431A89C8120001C5AE /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		EBE462C71A820F68001CE73F /* Jenkins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jenkins.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBE462CB1A820F68001CE73F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBE462CC1A820F68001CE73F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBE462CE1A820F68001CE73F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EBE462CF1A820F68001CE73F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EBE462D51A820F68001CE73F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBE462D71A820F68001CE73F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EBE462DA1A820F68001CE73F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EBE462E01A820F68001CE73F /* JenkinsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBE462E51A820F68001CE73F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBE462E61A820F68001CE73F /* JenkinsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JenkinsTests.m; sourceTree = "<group>"; };
+		EBE462F21A821055001CE73F /* Configure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Configure.h; sourceTree = "<group>"; };
+		EBE462F31A821055001CE73F /* libusc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libusc.a; sourceTree = "<group>"; };
+		EBE462F41A821055001CE73F /* USCSpeechResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USCSpeechResult.h; sourceTree = "<group>"; };
+		EBE462F51A821055001CE73F /* USCSpeechSynthesizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USCSpeechSynthesizer.h; sourceTree = "<group>"; };
+		EBE462F61A821055001CE73F /* USCSpeechUnderstander.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USCSpeechUnderstander.h; sourceTree = "<group>"; };
+		EBE4FF671A85E0420001C5AE /* JKBuildsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKBuildsModel.h; sourceTree = "<group>"; };
+		EBE4FF681A85E0420001C5AE /* JKBuildsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKBuildsModel.m; sourceTree = "<group>"; };
+		EBE4FF6A1A85E0AF0001C5AE /* JKHealthreportModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKHealthreportModel.h; sourceTree = "<group>"; };
+		EBE4FF6B1A85E0AF0001C5AE /* JKHealthreportModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKHealthreportModel.m; sourceTree = "<group>"; };
+		EBE4FF6D1A85E2EE0001C5AE /* JKJobDetailRequestDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKJobDetailRequestDTO.h; sourceTree = "<group>"; };
+		EBE4FF6E1A85E2EE0001C5AE /* JKJobDetailRequestDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKJobDetailRequestDTO.m; sourceTree = "<group>"; };
+		EBE4FF701A85E3350001C5AE /* JKJobDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKJobDetailModel.h; sourceTree = "<group>"; };
+		EBE4FF711A85E3350001C5AE /* JKJobDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKJobDetailModel.m; sourceTree = "<group>"; };
+		EBE4FF791A85EDB80001C5AE /* JKUpstreamprojectsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKUpstreamprojectsModel.h; sourceTree = "<group>"; };
+		EBE4FF7A1A85EDB80001C5AE /* JKUpstreamprojectsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKUpstreamprojectsModel.m; sourceTree = "<group>"; };
+		EBE4FF7C1A85F2F90001C5AE /* JKJobHistoryRequestDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKJobHistoryRequestDTO.h; sourceTree = "<group>"; };
+		EBE4FF7D1A85F2F90001C5AE /* JKJobHistoryRequestDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKJobHistoryRequestDTO.m; sourceTree = "<group>"; };
+		EBE4FF7F1A85F5390001C5AE /* JKHistoryJobDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKHistoryJobDetailModel.h; sourceTree = "<group>"; };
+		EBE4FF801A85F5390001C5AE /* JKHistoryJobDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKHistoryJobDetailModel.m; sourceTree = "<group>"; };
+		EBE4FF851A85F6370001C5AE /* JKCausesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKCausesModel.h; sourceTree = "<group>"; };
+		EBE4FF861A85F6370001C5AE /* JKCausesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKCausesModel.m; sourceTree = "<group>"; };
+		EBE4FF881A85F6AD0001C5AE /* JKItemsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKItemsModel.h; sourceTree = "<group>"; };
+		EBE4FF891A85F6AD0001C5AE /* JKItemsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKItemsModel.m; sourceTree = "<group>"; };
+		EBE4FF8B1A85F7BA0001C5AE /* JKAuthorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKAuthorModel.h; sourceTree = "<group>"; };
+		EBE4FF8C1A85F7BA0001C5AE /* JKAuthorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKAuthorModel.m; sourceTree = "<group>"; };
+		EBE4FF911A85F93B0001C5AE /* JKChangesetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKChangesetModel.h; sourceTree = "<group>"; };
+		EBE4FF921A85F93B0001C5AE /* JKChangesetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKChangesetModel.m; sourceTree = "<group>"; };
+		EBE4FF941A887F920001C5AE /* JKActionsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKActionsModel.h; sourceTree = "<group>"; };
+		EBE4FF951A887F920001C5AE /* JKActionsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKActionsModel.m; sourceTree = "<group>"; };
+		EBE4FF971A8888A80001C5AE /* JKAffectedPathsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKAffectedPathsModel.h; sourceTree = "<group>"; };
+		EBE4FF981A8888A80001C5AE /* JKAffectedPathsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKAffectedPathsModel.m; sourceTree = "<group>"; };
+		EBE4FFA21A88ABD80001C5AE /* AddProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddProjectViewController.h; sourceTree = "<group>"; };
+		EBE4FFA31A88ABD80001C5AE /* AddProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddProjectViewController.m; sourceTree = "<group>"; };
+		EBE4FFA41A88ABD80001C5AE /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		EBE4FFA51A88ABD80001C5AE /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		EBE4FFA61A88ABD80001C5AE /* HistoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryTableViewController.h; sourceTree = "<group>"; };
+		EBE4FFA71A88ABD80001C5AE /* HistoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryTableViewController.m; sourceTree = "<group>"; };
+		EBE4FFA81A88ABD80001C5AE /* JobDescViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobDescViewController.h; sourceTree = "<group>"; };
+		EBE4FFA91A88ABD80001C5AE /* JobDescViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobDescViewController.m; sourceTree = "<group>"; };
+		EBE4FFAA1A88ABD80001C5AE /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		EBE4FFAB1A88ABD80001C5AE /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		EBE4FFB71A88AC2B0001C5AE /* SearchJenkinsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchJenkinsViewController.h; sourceTree = "<group>"; };
+		EBE4FFB81A88AC2B0001C5AE /* SearchJenkinsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchJenkinsViewController.m; sourceTree = "<group>"; };
+		EBE4FFBA1A88AE1E0001C5AE /* JenkinsJobListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JenkinsJobListViewController.h; sourceTree = "<group>"; };
+		EBE4FFBB1A88AE1E0001C5AE /* JenkinsJobListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JenkinsJobListViewController.m; sourceTree = "<group>"; };
+		EBE4FFBE1A88B72E0001C5AE /* NSMutableArray+SWUtilityButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+SWUtilityButtons.h"; sourceTree = "<group>"; };
+		EBE4FFBF1A88B72E0001C5AE /* NSMutableArray+SWUtilityButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+SWUtilityButtons.m"; sourceTree = "<group>"; };
+		EBE4FFC01A88B72E0001C5AE /* SWCellScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWCellScrollView.h; sourceTree = "<group>"; };
+		EBE4FFC11A88B72E0001C5AE /* SWCellScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWCellScrollView.m; sourceTree = "<group>"; };
+		EBE4FFC21A88B72E0001C5AE /* SWLongPressGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWLongPressGestureRecognizer.h; sourceTree = "<group>"; };
+		EBE4FFC31A88B72E0001C5AE /* SWLongPressGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWLongPressGestureRecognizer.m; sourceTree = "<group>"; };
+		EBE4FFC41A88B72E0001C5AE /* SWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTableViewCell.h; sourceTree = "<group>"; };
+		EBE4FFC51A88B72E0001C5AE /* SWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTableViewCell.m; sourceTree = "<group>"; };
+		EBE4FFC61A88B72E0001C5AE /* SWUtilityButtonTapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonTapGestureRecognizer.h; sourceTree = "<group>"; };
+		EBE4FFC71A88B72E0001C5AE /* SWUtilityButtonTapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonTapGestureRecognizer.m; sourceTree = "<group>"; };
+		EBE4FFC81A88B72E0001C5AE /* SWUtilityButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonView.h; sourceTree = "<group>"; };
+		EBE4FFC91A88B72E0001C5AE /* SWUtilityButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBE462C41A820F68001CE73F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE462F71A821055001CE73F /* libusc.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE462DD1A820F68001CE73F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB3784181A8595EA00DB687A /* JenkinsAPI */ = {
+			isa = PBXGroup;
+			children = (
+				EB37842C1A85CFB800DB687A /* API */,
+				EB3784251A85CF4000DB687A /* Model */,
+				EB3784371A85D39D00DB687A /* JKHttpRequest.h */,
+				EB3784381A85D39D00DB687A /* JKHttpRequest.m */,
+				EB37843A1A85D8B000DB687A /* JKService.h */,
+				EB37843B1A85D8B000DB687A /* JKService.m */,
+			);
+			path = JenkinsAPI;
+			sourceTree = "<group>";
+		};
+		EB3784251A85CF4000DB687A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB3784261A85CF6200DB687A /* JKBaseModel.h */,
+				EB3784271A85CF6200DB687A /* JKBaseModel.m */,
+				EB3784281A85CF6200DB687A /* JKJobsModel.h */,
+				EB3784291A85CF6200DB687A /* JKJobsModel.m */,
+				EBE4FF701A85E3350001C5AE /* JKJobDetailModel.h */,
+				EBE4FF711A85E3350001C5AE /* JKJobDetailModel.m */,
+				EBE4FF671A85E0420001C5AE /* JKBuildsModel.h */,
+				EBE4FF681A85E0420001C5AE /* JKBuildsModel.m */,
+				EBE4FF6A1A85E0AF0001C5AE /* JKHealthreportModel.h */,
+				EBE4FF6B1A85E0AF0001C5AE /* JKHealthreportModel.m */,
+				EBE4FF791A85EDB80001C5AE /* JKUpstreamprojectsModel.h */,
+				EBE4FF7A1A85EDB80001C5AE /* JKUpstreamprojectsModel.m */,
+				EBE4FF7F1A85F5390001C5AE /* JKHistoryJobDetailModel.h */,
+				EBE4FF801A85F5390001C5AE /* JKHistoryJobDetailModel.m */,
+				EBE4FF851A85F6370001C5AE /* JKCausesModel.h */,
+				EBE4FF861A85F6370001C5AE /* JKCausesModel.m */,
+				EBE4FF881A85F6AD0001C5AE /* JKItemsModel.h */,
+				EBE4FF891A85F6AD0001C5AE /* JKItemsModel.m */,
+				EBE4FF8B1A85F7BA0001C5AE /* JKAuthorModel.h */,
+				EBE4FF8C1A85F7BA0001C5AE /* JKAuthorModel.m */,
+				EBE4FF911A85F93B0001C5AE /* JKChangesetModel.h */,
+				EBE4FF921A85F93B0001C5AE /* JKChangesetModel.m */,
+				EBE4FF941A887F920001C5AE /* JKActionsModel.h */,
+				EBE4FF951A887F920001C5AE /* JKActionsModel.m */,
+				EBE4FF971A8888A80001C5AE /* JKAffectedPathsModel.h */,
+				EBE4FF981A8888A80001C5AE /* JKAffectedPathsModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EB37842C1A85CFB800DB687A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				EB37842F1A85D02F00DB687A /* RequestDTO */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		EB37842F1A85D02F00DB687A /* RequestDTO */ = {
+			isa = PBXGroup;
+			children = (
+				EB3784301A85D05F00DB687A /* JKBaseRequestDTO.h */,
+				EB3784311A85D05F00DB687A /* JKBaseRequestDTO.m */,
+				EB3784341A85D22C00DB687A /* JKJobsRequestDTO.h */,
+				EB3784351A85D22C00DB687A /* JKJobsRequestDTO.m */,
+				EBE4FF6D1A85E2EE0001C5AE /* JKJobDetailRequestDTO.h */,
+				EBE4FF6E1A85E2EE0001C5AE /* JKJobDetailRequestDTO.m */,
+				EBE4FF7C1A85F2F90001C5AE /* JKJobHistoryRequestDTO.h */,
+				EBE4FF7D1A85F2F90001C5AE /* JKJobHistoryRequestDTO.m */,
+			);
+			path = RequestDTO;
+			sourceTree = "<group>";
+		};
+		EBC714CA1A847EB500758981 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				EBC714CB1A847EB500758981 /* AFHTTPRequestOperation.h */,
+				EBC714CC1A847EB500758981 /* AFHTTPRequestOperation.m */,
+				EBC714CD1A847EB500758981 /* AFHTTPRequestOperationManager.h */,
+				EBC714CE1A847EB500758981 /* AFHTTPRequestOperationManager.m */,
+				EBC714CF1A847EB500758981 /* AFHTTPSessionManager.h */,
+				EBC714D01A847EB500758981 /* AFHTTPSessionManager.m */,
+				EBC714D11A847EB500758981 /* AFNetworking.h */,
+				EBC714D21A847EB500758981 /* AFNetworkReachabilityManager.h */,
+				EBC714D31A847EB500758981 /* AFNetworkReachabilityManager.m */,
+				EBC714D41A847EB500758981 /* AFSecurityPolicy.h */,
+				EBC714D51A847EB500758981 /* AFSecurityPolicy.m */,
+				EBC714D61A847EB500758981 /* AFURLConnectionOperation.h */,
+				EBC714D71A847EB500758981 /* AFURLConnectionOperation.m */,
+				EBC714D81A847EB500758981 /* AFURLRequestSerialization.h */,
+				EBC714D91A847EB500758981 /* AFURLRequestSerialization.m */,
+				EBC714DA1A847EB500758981 /* AFURLResponseSerialization.h */,
+				EBC714DB1A847EB500758981 /* AFURLResponseSerialization.m */,
+				EBC714DC1A847EB500758981 /* AFURLSessionManager.h */,
+				EBC714DD1A847EB500758981 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		EBC714E71A847EDF00758981 /* UIKit+AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				EBC714E81A847EDF00758981 /* AFNetworkActivityIndicatorManager.h */,
+				EBC714E91A847EDF00758981 /* AFNetworkActivityIndicatorManager.m */,
+				EBC714EA1A847EDF00758981 /* UIActivityIndicatorView+AFNetworking.h */,
+				EBC714EB1A847EDF00758981 /* UIActivityIndicatorView+AFNetworking.m */,
+				EBC714EC1A847EDF00758981 /* UIAlertView+AFNetworking.h */,
+				EBC714ED1A847EDF00758981 /* UIAlertView+AFNetworking.m */,
+				EBC714EE1A847EDF00758981 /* UIButton+AFNetworking.h */,
+				EBC714EF1A847EDF00758981 /* UIButton+AFNetworking.m */,
+				EBC714F01A847EDF00758981 /* UIImageView+AFNetworking.h */,
+				EBC714F11A847EDF00758981 /* UIImageView+AFNetworking.m */,
+				EBC714F21A847EDF00758981 /* UIKit+AFNetworking.h */,
+				EBC714F31A847EDF00758981 /* UIProgressView+AFNetworking.h */,
+				EBC714F41A847EDF00758981 /* UIProgressView+AFNetworking.m */,
+				EBC714F51A847EDF00758981 /* UIRefreshControl+AFNetworking.h */,
+				EBC714F61A847EDF00758981 /* UIRefreshControl+AFNetworking.m */,
+				EBC714F71A847EDF00758981 /* UIWebView+AFNetworking.h */,
+				EBC714F81A847EDF00758981 /* UIWebView+AFNetworking.m */,
+			);
+			path = "UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
+		EBC7150A1A84905200758981 /* CXAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				EBC7150B1A84905200758981 /* CXAlertButtonContainerView.h */,
+				EBC7150C1A84905200758981 /* CXAlertButtonContainerView.m */,
+				EBC7150D1A84905200758981 /* CXAlertButtonItem.h */,
+				EBC7150E1A84905200758981 /* CXAlertButtonItem.m */,
+				EBC7150F1A84905200758981 /* CXAlertView.h */,
+				EBC715101A84905200758981 /* CXAlertView.m */,
+				EBC715111A84905200758981 /* CXAlertViewController.h */,
+				EBC715121A84905200758981 /* CXAlertViewController.m */,
+				EBC715131A84905200758981 /* CXBlurView.h */,
+				EBC715141A84905200758981 /* CXBlurView.m */,
+			);
+			path = CXAlertView;
+			sourceTree = "<group>";
+		};
+		EBC7151D1A84921A00758981 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				EBC7151E1A84921A00758981 /* MBProgressHUD.h */,
+				EBC7151F1A84921A00758981 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		EBE462BE1A820F68001CE73F = {
+			isa = PBXGroup;
+			children = (
+				EBE462C91A820F68001CE73F /* Jenkins */,
+				EBE462E31A820F68001CE73F /* JenkinsTests */,
+				EBE462C81A820F68001CE73F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBE462C81A820F68001CE73F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBE462C71A820F68001CE73F /* Jenkins.app */,
+				EBE462E01A820F68001CE73F /* JenkinsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBE462C91A820F68001CE73F /* Jenkins */ = {
+			isa = PBXGroup;
+			children = (
+				EBE4FFA11A88AB970001C5AE /* Controllers */,
+				EB3784181A8595EA00DB687A /* JenkinsAPI */,
+				EBE462F01A821055001CE73F /* 3rd */,
+				EBE462CE1A820F68001CE73F /* AppDelegate.h */,
+				EBE462CF1A820F68001CE73F /* AppDelegate.m */,
+				EBE462D41A820F68001CE73F /* Main.storyboard */,
+				EBE462D71A820F68001CE73F /* Images.xcassets */,
+				EBE462D91A820F68001CE73F /* LaunchScreen.xib */,
+				EBE462CA1A820F68001CE73F /* Supporting Files */,
+				EBC715011A847F8000758981 /* ProjectHelper.h */,
+				EBC715021A847F8000758981 /* ProjectHelper.m */,
+			);
+			path = Jenkins;
+			sourceTree = "<group>";
+		};
+		EBE462CA1A820F68001CE73F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBE462CB1A820F68001CE73F /* Info.plist */,
+				EBE462CC1A820F68001CE73F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBE462E31A820F68001CE73F /* JenkinsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBE462E61A820F68001CE73F /* JenkinsTests.m */,
+				EBE462E41A820F68001CE73F /* Supporting Files */,
+			);
+			path = JenkinsTests;
+			sourceTree = "<group>";
+		};
+		EBE462E41A820F68001CE73F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBE462E51A820F68001CE73F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBE462F01A821055001CE73F /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				EBE4FFBD1A88B72E0001C5AE /* SWTableViewCell */,
+				EBC7151D1A84921A00758981 /* MBProgressHUD */,
+				EBC7150A1A84905200758981 /* CXAlertView */,
+				EBC714E71A847EDF00758981 /* UIKit+AFNetworking */,
+				EBC714CA1A847EB500758981 /* AFNetworking */,
+				EBE462F11A821055001CE73F /* lib */,
+			);
+			path = 3rd;
+			sourceTree = "<group>";
+		};
+		EBE462F11A821055001CE73F /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				EBE462F21A821055001CE73F /* Configure.h */,
+				EBE462F31A821055001CE73F /* libusc.a */,
+				EBE462F41A821055001CE73F /* USCSpeechResult.h */,
+				EBE462F51A821055001CE73F /* USCSpeechSynthesizer.h */,
+				EBE462F61A821055001CE73F /* USCSpeechUnderstander.h */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		EBE4FFA11A88AB970001C5AE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EBE4FFA21A88ABD80001C5AE /* AddProjectViewController.h */,
+				EBE4FFA31A88ABD80001C5AE /* AddProjectViewController.m */,
+				EBE4FFA41A88ABD80001C5AE /* BaseTableViewController.h */,
+				EBE4FFA51A88ABD80001C5AE /* BaseTableViewController.m */,
+				EBE4FFA61A88ABD80001C5AE /* HistoryTableViewController.h */,
+				EBE4FFA71A88ABD80001C5AE /* HistoryTableViewController.m */,
+				EBE4FFA81A88ABD80001C5AE /* JobDescViewController.h */,
+				EBE4FFA91A88ABD80001C5AE /* JobDescViewController.m */,
+				EBE4FFAA1A88ABD80001C5AE /* RootViewController.h */,
+				EBE4FFAB1A88ABD80001C5AE /* RootViewController.m */,
+				EBE4FFB71A88AC2B0001C5AE /* SearchJenkinsViewController.h */,
+				EBE4FFB81A88AC2B0001C5AE /* SearchJenkinsViewController.m */,
+				EBE4FFBA1A88AE1E0001C5AE /* JenkinsJobListViewController.h */,
+				EBE4FFBB1A88AE1E0001C5AE /* JenkinsJobListViewController.m */,
+				EBE4003F1A89C6BB0001C5AE /* LoginViewController.h */,
+				EBE400401A89C6BB0001C5AE /* LoginViewController.m */,
+				EBE400421A89C8120001C5AE /* RegisterViewController.h */,
+				EBE400431A89C8120001C5AE /* RegisterViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EBE4FFBD1A88B72E0001C5AE /* SWTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				EBE4FFBE1A88B72E0001C5AE /* NSMutableArray+SWUtilityButtons.h */,
+				EBE4FFBF1A88B72E0001C5AE /* NSMutableArray+SWUtilityButtons.m */,
+				EBE4FFC01A88B72E0001C5AE /* SWCellScrollView.h */,
+				EBE4FFC11A88B72E0001C5AE /* SWCellScrollView.m */,
+				EBE4FFC21A88B72E0001C5AE /* SWLongPressGestureRecognizer.h */,
+				EBE4FFC31A88B72E0001C5AE /* SWLongPressGestureRecognizer.m */,
+				EBE4FFC41A88B72E0001C5AE /* SWTableViewCell.h */,
+				EBE4FFC51A88B72E0001C5AE /* SWTableViewCell.m */,
+				EBE4FFC61A88B72E0001C5AE /* SWUtilityButtonTapGestureRecognizer.h */,
+				EBE4FFC71A88B72E0001C5AE /* SWUtilityButtonTapGestureRecognizer.m */,
+				EBE4FFC81A88B72E0001C5AE /* SWUtilityButtonView.h */,
+				EBE4FFC91A88B72E0001C5AE /* SWUtilityButtonView.m */,
+			);
+			path = SWTableViewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBE462C61A820F68001CE73F /* Jenkins */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBE462EA1A820F68001CE73F /* Build configuration list for PBXNativeTarget "Jenkins" */;
+			buildPhases = (
+				EBE462C31A820F68001CE73F /* Sources */,
+				EBE462C41A820F68001CE73F /* Frameworks */,
+				EBE462C51A820F68001CE73F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jenkins;
+			productName = Jenkins;
+			productReference = EBE462C71A820F68001CE73F /* Jenkins.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBE462DF1A820F68001CE73F /* JenkinsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBE462ED1A820F68001CE73F /* Build configuration list for PBXNativeTarget "JenkinsTests" */;
+			buildPhases = (
+				EBE462DC1A820F68001CE73F /* Sources */,
+				EBE462DD1A820F68001CE73F /* Frameworks */,
+				EBE462DE1A820F68001CE73F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBE462E21A820F68001CE73F /* PBXTargetDependency */,
+			);
+			name = JenkinsTests;
+			productName = JenkinsTests;
+			productReference = EBE462E01A820F68001CE73F /* JenkinsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBE462BF1A820F68001CE73F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = DataYes;
+				TargetAttributes = {
+					EBE462C61A820F68001CE73F = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 9S3CA8YUKP;
+					};
+					EBE462DF1A820F68001CE73F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = EBE462C61A820F68001CE73F;
+					};
+				};
+			};
+			buildConfigurationList = EBE462C21A820F68001CE73F /* Build configuration list for PBXProject "Jenkins" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBE462BE1A820F68001CE73F;
+			productRefGroup = EBE462C81A820F68001CE73F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBE462C61A820F68001CE73F /* Jenkins */,
+				EBE462DF1A820F68001CE73F /* JenkinsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBE462C51A820F68001CE73F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE462D61A820F68001CE73F /* Main.storyboard in Resources */,
+				EBE462DB1A820F68001CE73F /* LaunchScreen.xib in Resources */,
+				EBE462D81A820F68001CE73F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE462DE1A820F68001CE73F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBE462C31A820F68001CE73F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE4FFAE1A88ABD80001C5AE /* HistoryTableViewController.m in Sources */,
+				EBE4FF6C1A85E0AF0001C5AE /* JKHealthreportModel.m in Sources */,
+				EB3784391A85D39D00DB687A /* JKHttpRequest.m in Sources */,
+				EBC714DE1A847EB500758981 /* AFHTTPRequestOperation.m in Sources */,
+				EBE4FFCA1A88B72E0001C5AE /* NSMutableArray+SWUtilityButtons.m in Sources */,
+				EBC714FD1A847EDF00758981 /* UIImageView+AFNetworking.m in Sources */,
+				EBE462D01A820F68001CE73F /* AppDelegate.m in Sources */,
+				EBE4FFCF1A88B72E0001C5AE /* SWUtilityButtonView.m in Sources */,
+				EBE4FF931A85F93B0001C5AE /* JKChangesetModel.m in Sources */,
+				EBC714DF1A847EB500758981 /* AFHTTPRequestOperationManager.m in Sources */,
+				EBC715171A84905200758981 /* CXAlertView.m in Sources */,
+				EBC715161A84905200758981 /* CXAlertButtonItem.m in Sources */,
+				EBC714FE1A847EDF00758981 /* UIProgressView+AFNetworking.m in Sources */,
+				EBC715201A84921A00758981 /* MBProgressHUD.m in Sources */,
+				EBC714E11A847EB500758981 /* AFNetworkReachabilityManager.m in Sources */,
+				EBE4FFAC1A88ABD80001C5AE /* AddProjectViewController.m in Sources */,
+				EBE4FFB01A88ABD80001C5AE /* RootViewController.m in Sources */,
+				EBE400411A89C6BB0001C5AE /* LoginViewController.m in Sources */,
+				EB37842A1A85CF6200DB687A /* JKBaseModel.m in Sources */,
+				EBE4FF811A85F5390001C5AE /* JKHistoryJobDetailModel.m in Sources */,
+				EBE4FFCC1A88B72E0001C5AE /* SWLongPressGestureRecognizer.m in Sources */,
+				EBC714E51A847EB500758981 /* AFURLResponseSerialization.m in Sources */,
+				EBE4FF7E1A85F2F90001C5AE /* JKJobHistoryRequestDTO.m in Sources */,
+				EBC714E31A847EB500758981 /* AFURLConnectionOperation.m in Sources */,
+				EBE4FF961A887F920001C5AE /* JKActionsModel.m in Sources */,
+				EB37843C1A85D8B000DB687A /* JKService.m in Sources */,
+				EBE4FFAF1A88ABD80001C5AE /* JobDescViewController.m in Sources */,
+				EBE4FFCE1A88B72E0001C5AE /* SWUtilityButtonTapGestureRecognizer.m in Sources */,
+				EBE4FFCD1A88B72E0001C5AE /* SWTableViewCell.m in Sources */,
+				EBC714FC1A847EDF00758981 /* UIButton+AFNetworking.m in Sources */,
+				EBC715031A847F8000758981 /* ProjectHelper.m in Sources */,
+				EBC714FA1A847EDF00758981 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				EBE4FFAD1A88ABD80001C5AE /* BaseTableViewController.m in Sources */,
+				EBC714E21A847EB500758981 /* AFSecurityPolicy.m in Sources */,
+				EBE4FF871A85F6370001C5AE /* JKCausesModel.m in Sources */,
+				EBE4FF8A1A85F6AD0001C5AE /* JKItemsModel.m in Sources */,
+				EBE4FF721A85E3350001C5AE /* JKJobDetailModel.m in Sources */,
+				EBC714FF1A847EDF00758981 /* UIRefreshControl+AFNetworking.m in Sources */,
+				EB3784361A85D22C00DB687A /* JKJobsRequestDTO.m in Sources */,
+				EBC715001A847EDF00758981 /* UIWebView+AFNetworking.m in Sources */,
+				EBC714E01A847EB500758981 /* AFHTTPSessionManager.m in Sources */,
+				EBC714FB1A847EDF00758981 /* UIAlertView+AFNetworking.m in Sources */,
+				EBC714E41A847EB500758981 /* AFURLRequestSerialization.m in Sources */,
+				EB3784321A85D05F00DB687A /* JKBaseRequestDTO.m in Sources */,
+				EBE4FFCB1A88B72E0001C5AE /* SWCellScrollView.m in Sources */,
+				EBE4FF991A8888A80001C5AE /* JKAffectedPathsModel.m in Sources */,
+				EBE4FFB91A88AC2B0001C5AE /* SearchJenkinsViewController.m in Sources */,
+				EBE4FF8D1A85F7BA0001C5AE /* JKAuthorModel.m in Sources */,
+				EBC715181A84905200758981 /* CXAlertViewController.m in Sources */,
+				EBC715191A84905200758981 /* CXBlurView.m in Sources */,
+				EBC714F91A847EDF00758981 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				EBE4FF6F1A85E2EE0001C5AE /* JKJobDetailRequestDTO.m in Sources */,
+				EBE4FFBC1A88AE1E0001C5AE /* JenkinsJobListViewController.m in Sources */,
+				EBC715151A84905200758981 /* CXAlertButtonContainerView.m in Sources */,
+				EBE4FF691A85E0420001C5AE /* JKBuildsModel.m in Sources */,
+				EBE400441A89C8120001C5AE /* RegisterViewController.m in Sources */,
+				EBC714E61A847EB500758981 /* AFURLSessionManager.m in Sources */,
+				EB37842B1A85CF6200DB687A /* JKJobsModel.m in Sources */,
+				EBE462CD1A820F68001CE73F /* main.m in Sources */,
+				EBE4FF7B1A85EDB80001C5AE /* JKUpstreamprojectsModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE462DC1A820F68001CE73F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE462E71A820F68001CE73F /* JenkinsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBE462E21A820F68001CE73F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBE462C61A820F68001CE73F /* Jenkins */;
+			targetProxy = EBE462E11A820F68001CE73F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBE462D41A820F68001CE73F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBE462D51A820F68001CE73F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBE462D91A820F68001CE73F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBE462DA1A820F68001CE73F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBE462E81A820F68001CE73F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EBE462E91A820F68001CE73F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBE462EB1A820F68001CE73F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: zhixiao Ling (P4V886MYDE)";
+				INFOPLIST_FILE = Jenkins/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Jenkins/3rd/lib",
+				);
+				PRODUCT_NAME = Jenkins;
+				PROVISIONING_PROFILE = "4821b75f-90d8-4719-b7f9-432da86f460d";
+			};
+			name = Debug;
+		};
+		EBE462EC1A820F68001CE73F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: zhixiao Ling (9S3CA8YUKP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: zhixiao Ling (9S3CA8YUKP)";
+				INFOPLIST_FILE = Jenkins/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Jenkins/3rd/lib",
+				);
+				PRODUCT_NAME = Jenkins;
+				PROVISIONING_PROFILE = "4ff6583f-b63a-4645-855c-9b151e05b0ab";
+			};
+			name = Release;
+		};
+		EBE462EE1A820F68001CE73F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JenkinsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = JenkinsTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jenkins.app/Jenkins";
+			};
+			name = Debug;
+		};
+		EBE462EF1A820F68001CE73F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JenkinsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = JenkinsTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jenkins.app/Jenkins";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBE462C21A820F68001CE73F /* Build configuration list for PBXProject "Jenkins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE462E81A820F68001CE73F /* Debug */,
+				EBE462E91A820F68001CE73F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBE462EA1A820F68001CE73F /* Build configuration list for PBXNativeTarget "Jenkins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE462EB1A820F68001CE73F /* Debug */,
+				EBE462EC1A820F68001CE73F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBE462ED1A820F68001CE73F /* Build configuration list for PBXNativeTarget "JenkinsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE462EE1A820F68001CE73F /* Debug */,
+				EBE462EF1A820F68001CE73F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBE462BF1A820F68001CE73F /* Project object */;
+}
